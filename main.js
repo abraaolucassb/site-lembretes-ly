@@ -1,6 +1,6 @@
 //Function para verificar de há texto...
 function textoValido(texto) {
-    if (texto == null || texto == "" || texto.lenght < 1) {
+    if (texto == null || texto == "" || texto.length < 1) {
         return false;
     } else {
         return true;
@@ -91,7 +91,7 @@ function mostrarRecordatorio() {
 
     } else {
         var recordatoriosRecuperados = JSON.parse(recordatoriosExistentes);
-        for (var i = 0; i < recordatoriosRecuperados.lenght; i++) {
+        for (var i = 0; i < recordatoriosRecuperados.length; i++) {
             html += formatarRecordatorio(recordatoriosRecuperados[i]);
         }
         document.getElementById("recordatorios").innerHTML = html;
