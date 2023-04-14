@@ -28,7 +28,7 @@
                 <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
                     <!--SINGUP MODAL-->
                     <li class=" nav-but">
-                        <a class="btn btn-danger" data-bs-toggle="modal" data-bs-target="#ModalForm1">SignUp</a>
+                        <a class="btn btn-danger" data-bs-toggle="modal" data-bs-target="#ModalForm1">Cadastre-se</a>
                         <div class="modal fade" id="ModalForm1" tabindex="-1" aria-labelledby="ModalFormLabel"
                             aria-hidden="true">
                             <div class="modal-dialog modal-dialog-centered modal-light">
@@ -39,6 +39,11 @@
                                         <div class="myform bg-light text-dark">
                                             <h1 class="text-center text-dark">Cadastro</h1>
                                             <form>
+                                                <div class="mb-3 mt-4">
+                                                    <label for="exampleInputName" class="form-label">Nome</label>
+                                                    <input type="email" class="form-control" placeholder="seu nome"
+                                                        id="exampleInputName" aria-describedby="emailHelp">
+                                                </div>
                                                 <div class="mb-3 mt-4">
                                                     <label for="exampleInputEmail1" class="form-label">Email</label>
                                                     <input type="email" class="form-control"
@@ -52,10 +57,10 @@
                                                 </div>
 
                                                 <div class="mb-3">
-                                                    <label for="exampleInputPassword1" class="form-label">Repita a
+                                                    <label for="exampleInputPassword2" class="form-label">Repita a
                                                         Senha</label>
                                                     <input type="password" class="form-control"
-                                                        id="exampleInputPassword1">
+                                                        id="exampleInputPassword2">
                                                 </div>
                                                 <button type="submit"
                                                     class="btn btn-outline-danger mt-3">CADASTRAR</button>
@@ -94,6 +99,10 @@
 
                                                 <button type="submit"
                                                     class="btn btn-outline-success mt-3">LOGIN</button>
+                                                <br>
+                                                <br>
+                                                <p>Não tem uma conta? <a href="#ModalForm1" data-bs-toggle="modal"
+                                                        data-bs-target="#ModalForm1">Crie agora.</a></p>
                                             </form>
                                         </div>
                                     </div>
