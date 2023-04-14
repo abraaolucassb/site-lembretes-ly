@@ -92,8 +92,8 @@ h1 {
     color: gray;
     padding-left: 0;
     border: 0;
-    border-radius: 1px;
-    border-bottom: 1px solid gray;
+    border-radius: 4px;
+    border: 1px solid gray;
 }
 
 .myform .btn {
