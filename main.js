@@ -71,7 +71,7 @@ function comprovarRecordatorio(recordatorio) {
         saveRecordatorio(recordatoriosRecuperados);
     }
     //gravar os dados
-    mostrarRecordatorios();
+    mostrarRecordatorio();
 }
 
 function saveRecordatorio(recordatorios) {
@@ -80,7 +80,7 @@ function saveRecordatorio(recordatorios) {
 }
 
 //função para exibir
-function mostrarRecordatorios() {
+function mostrarRecordatorio() {
     var html = "";
 
     var recordatoriosExistentes = localStorage.getItem("recordatorios");
@@ -130,6 +130,6 @@ document.addEventListener('DOMContentLoaded', function () {
 
     document.getElementById("buttonSave").onclick = createRecordatorio;
 
-    mostrarRecordatorios()
+    mostrarRecordatorio()
 
 });
